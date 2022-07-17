@@ -54,7 +54,7 @@
    
 }
 @media only screen and (max-width:720px){
-  [class*="col-"]{
-    width: 100%;
+  .wrapper{
+    grid-template-columns: 1fr;
   }
 }
