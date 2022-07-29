@@ -1,0 +1,53 @@
+.root{
+    background-image: url("Background.jpeg");
+    color: white;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.language{
+    justify-content: space-between;
+   
+}
+.language-1{
+    background-color: black;
+    color: white;
+}
+.btn-sign{
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.main-text{
+    text-align: center;
+    font-size: x-large;
+}
+.email{
+    margin-left: 15cm;
+    width: 27%;
+    height: fit-contentS;
+    background-color: white;
+  display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+   
+   align-items: center;
+  
+}
+.email-address{
+    border:none;
+    padding: 10px 5px;
+    font-size: 1em;
+}
+.get-started{
+    
+    background-color: red;
+    padding: 10px 5px;
+    text-transform: uppercase;
+
+}
