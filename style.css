@@ -7,7 +7,6 @@
 .wrapper{
     display: grid;
     grid-template-columns: 15fr 15fr 15fr;
-    
     border-radius: 12px;
     margin: 4rem;
     overflow: hidden;
@@ -41,8 +40,7 @@
     border-radius: 20px;
     margin-top: 40px;
     display: inline-block;
-   
-}
+   }
 .box1 a{
    background-color: orange;
    }
@@ -53,8 +51,12 @@
      background-color: hsl(179, 100%, 13%);
    
 }
-@media only screen and (max-width:720px){
+@media only screen and (max-width:360px){
+    .container{
+        max-width: 400px;
+    }
   .wrapper{
-    grid-template-columns: 1fr;
+    grid-template-columns: 15fr;
   }
+  
 }
