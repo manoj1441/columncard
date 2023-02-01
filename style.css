@@ -6,7 +6,7 @@
 }
 .wrapper{
     display: grid;
-    grid-template-columns: 15fr 15fr 15fr;
+    grid-template-columns: 1fr 1fr 1fr;
     border-radius: 12px;
     margin: 4rem;
     overflow: hidden;
@@ -51,12 +51,13 @@
      background-color: hsl(179, 100%, 13%);
    
 }
-@media only screen and (max-width:360px){
+@media only screen and (max-width:400px){
     .container{
         max-width: 400px;
     }
   .wrapper{
-    grid-template-columns: 15fr;
+    grid-template-columns: 1fr;
+    margin: 1rem;
   }
   
 }
